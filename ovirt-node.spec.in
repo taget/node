@@ -306,9 +306,12 @@ fi
 %{_initrddir}/ovirt-post
 %{_initrddir}/ovirt-cim
 %endif
-
+%{_mandir}/man8/node-creator.8.gz
 
 %changelog
+* Mon Jun 27 2012 Eli Qiao <taget@linux.vnet.ibm.com> 2.0.0-2
+- add man page for node-creator
+
 * Mon Jun 20 2011 Alan Pevec <apevec@redhat.com> 2.0.0-1
 - split kickstarts per distro, currently ovirt15 and rhevh6
 - new installation and configuration text UI for standalone mode
